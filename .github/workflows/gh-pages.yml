@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Angular
         working-directory: prezentacja-angular
-        run: npm run build -- --configuration production
+        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
